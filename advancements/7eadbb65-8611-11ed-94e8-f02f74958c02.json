@@ -627,6 +627,7 @@
       "cooked_chicken": "2024-06-17 09:00:53 +0700",
       "cooked_mutton": "2024-06-16 13:17:16 +0700",
       "cooked_cod": "2024-06-16 12:10:56 +0700",
+      "dried_kelp": "2024-06-18 06:13:09 +0700",
       "cooked_beef": "2024-06-10 11:28:59 +0700"
     },
     "done": false
@@ -718,6 +719,7 @@
       "minecraft:zombie": "2024-06-10 12:05:13 +0700",
       "minecraft:creeper": "2024-06-10 12:36:07 +0700",
       "minecraft:drowned": "2024-06-11 12:38:17 +0700",
+      "minecraft:ghast": "2024-06-18 04:25:42 +0700",
       "minecraft:slime": "2024-06-17 11:13:58 +0700"
     },
     "done": false
@@ -2231,7 +2233,8 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2024-06-16 20:41:19 +0700",
-      "minecraft:warped_forest": "2024-06-16 20:40:58 +0700"
+      "minecraft:warped_forest": "2024-06-16 20:40:58 +0700",
+      "minecraft:basalt_deltas": "2024-06-18 04:25:59 +0700"
     },
     "done": false
   },
@@ -2472,6 +2475,48 @@
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_wood_slab": "2024-06-17 14:40:19 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2024-06-18 02:47:19 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_kelp_block": {
+    "criteria": {
+      "has_dried_kelp": "2024-06-18 06:01:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2024-06-18 04:25:42 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2024-06-18 03:45:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2024-06-18 04:40:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-06-18 04:40:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp": {
+    "criteria": {
+      "has_dried_kelp_block": "2024-06-18 06:15:22 +0700"
     },
     "done": true
   },
