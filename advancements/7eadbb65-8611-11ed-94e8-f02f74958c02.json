@@ -717,14 +717,16 @@
       "minecraft:pillager": "2024-06-16 12:12:38 +0700",
       "minecraft:blaze": "2024-06-18 21:21:30 +0700",
       "minecraft:skeleton": "2024-06-10 12:31:37 +0700",
-      "minecraft:piglin": "2024-06-18 17:56:16 +0700",
+      "minecraft:zombified_piglin": "2024-06-19 13:53:12 +0700",
       "minecraft:witch": "2024-06-17 11:03:22 +0700",
-      "minecraft:spider": "2024-06-10 12:23:49 +0700",
       "minecraft:wither_skeleton": "2024-06-18 21:04:50 +0700",
+      "minecraft:ghast": "2024-06-18 04:25:42 +0700",
+      "minecraft:piglin": "2024-06-18 17:56:16 +0700",
+      "minecraft:enderman": "2024-06-19 12:12:03 +0700",
+      "minecraft:spider": "2024-06-10 12:23:49 +0700",
       "minecraft:zombie": "2024-06-10 12:05:13 +0700",
       "minecraft:creeper": "2024-06-10 12:36:07 +0700",
       "minecraft:drowned": "2024-06-11 12:38:17 +0700",
-      "minecraft:ghast": "2024-06-18 04:25:42 +0700",
       "minecraft:slime": "2024-06-17 11:13:58 +0700"
     },
     "done": false
@@ -2859,6 +2861,12 @@
   "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
       "has_gold_nugget": "2024-06-19 10:12:45 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2024-06-19 15:16:13 +0700"
     },
     "done": true
   },
