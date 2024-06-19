@@ -7,11 +7,23 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2024-06-19 22:38:09 +0700",
+      "minecraft:beach": "2024-06-19 22:38:17 +0700",
+      "minecraft:stony_peaks": "2024-06-19 22:26:07 +0700",
       "minecraft:forest": "2024-06-09 18:29:13 +0700",
+      "minecraft:taiga": "2024-06-19 22:52:51 +0700",
       "minecraft:sparse_jungle": "2024-06-09 18:29:50 +0700",
-      "minecraft:jungle": "2024-06-09 18:30:19 +0700",
       "minecraft:river": "2024-06-09 18:30:16 +0700",
+      "minecraft:snowy_plains": "2024-06-19 22:40:54 +0700",
       "minecraft:dripstone_caves": "2024-06-09 21:06:40 +0700",
+      "minecraft:ice_spikes": "2024-06-19 22:42:05 +0700",
+      "minecraft:old_growth_birch_forest": "2024-06-19 22:52:54 +0700",
+      "minecraft:frozen_river": "2024-06-19 22:41:19 +0700",
+      "minecraft:jungle": "2024-06-09 18:30:19 +0700",
+      "minecraft:ocean": "2024-06-19 22:37:15 +0700",
+      "minecraft:swamp": "2024-06-19 22:39:28 +0700",
+      "minecraft:birch_forest": "2024-06-19 22:54:20 +0700",
+      "minecraft:bamboo_jungle": "2024-06-19 22:29:52 +0700",
       "minecraft:plains": "2024-06-09 22:28:56 +0700"
     },
     "done": false
@@ -303,11 +315,16 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2024-06-19 23:24:32 +0700",
+      "minecraft:skeleton": "2024-06-19 22:24:37 +0700",
+      "minecraft:phantom": "2024-06-19 22:04:11 +0700",
       "minecraft:enderman": "2024-06-09 21:05:18 +0700",
       "minecraft:spider": "2024-06-09 22:30:48 +0700",
       "minecraft:zombie": "2024-06-09 19:12:32 +0700",
       "minecraft:creeper": "2024-06-09 19:31:18 +0700",
-      "minecraft:drowned": "2024-06-09 22:29:58 +0700"
+      "minecraft:drowned": "2024-06-09 22:29:58 +0700",
+      "minecraft:ghast": "2024-06-19 23:01:14 +0700",
+      "minecraft:slime": "2024-06-19 22:46:00 +0700"
     },
     "done": false
   },
@@ -1715,7 +1732,25 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2024-06-19 21:20:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2024-06-19 21:20:55 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2024-06-19 21:21:08 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
     "criteria": {
       "has_paper": "2024-06-19 21:21:08 +0700"
     },
@@ -1724,11 +1759,18 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2024-06-19 21:31:25 +0700",
-      "minecraft:warped_forest": "2024-06-19 21:31:15 +0700"
+      "minecraft:warped_forest": "2024-06-19 21:31:15 +0700",
+      "minecraft:basalt_deltas": "2024-06-19 22:56:28 +0700"
     },
     "done": false
   },
   "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-06-19 21:31:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2024-06-19 21:31:15 +0700"
     },
@@ -1740,27 +1782,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/sugar_from_sugar_cane": {
-    "criteria": {
-      "has_sugar_cane": "2024-06-19 21:20:55 +0700"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2024-06-19 21:31:15 +0700"
-    },
-    "done": true
-  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2024-06-19 21:32:08 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cartography_table": {
-    "criteria": {
-      "has_paper": "2024-06-19 21:21:08 +0700"
     },
     "done": true
   },
@@ -1770,9 +1794,231 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/paper": {
+  "minecraft:recipes/decorations/blast_furnace": {
     "criteria": {
-      "has_reeds": "2024-06-19 21:20:55 +0700"
+      "has_smooth_stone": "2024-06-19 22:04:58 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-06-19 22:05:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2024-06-19 22:57:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-06-19 22:05:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2024-06-19 23:02:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-19 23:02:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-19 23:02:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-19 23:02:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-06-19 22:46:19 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-06-19 22:05:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2024-06-19 23:02:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2024-06-19 22:42:11 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2024-06-19 22:35:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2024-06-19 23:02:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2024-06-19 23:02:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-19 23:02:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2024-06-19 22:16:28 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-19 23:02:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2024-06-19 22:09:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2024-06-19 22:57:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-19 23:02:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-19 23:02:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2024-06-19 22:46:19 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-19 23:02:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "pumpkin_stem": "2024-06-19 23:16:28 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2024-06-19 22:41:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-19 23:02:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2024-06-19 22:04:58 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2024-06-19 22:44:00 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2024-06-19 22:04:58 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2024-06-19 22:55:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-19 23:02:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2024-06-19 22:46:19 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2024-06-19 22:57:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-19 23:02:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2024-06-19 22:42:11 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-19 23:02:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2024-06-19 22:16:28 +0700"
     },
     "done": true
   },
