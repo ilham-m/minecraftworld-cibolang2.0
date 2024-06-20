@@ -588,8 +588,10 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-06-09 20:04:41 +0700",
+      "minecraft:blaze": "2024-06-20 15:55:57 +0700",
       "minecraft:skeleton": "2024-06-19 23:45:15 +0700",
       "minecraft:enderman": "2024-06-09 22:16:41 +0700",
+      "minecraft:magma_cube": "2024-06-20 15:51:11 +0700",
       "minecraft:spider": "2024-06-09 20:50:23 +0700",
       "minecraft:zombie": "2024-06-09 19:10:43 +0700",
       "minecraft:creeper": "2024-06-09 22:29:53 +0700",
@@ -2201,19 +2203,67 @@
     },
     "done": true
   },
-  "minecraft:husbandry/allay_deliver_item_to_player": {
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
     "criteria": {
-      "allay_deliver_item_to_player": "2024-06-19 23:30:32 +0700"
+      "has_log": "2024-06-19 22:19:15 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+  "minecraft:recipes/decorations/oak_hanging_sign": {
     "criteria": {
-      "has_potato": "2024-06-19 23:46:38 +0700"
+      "has_stripped_logs": "2024-06-19 22:19:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2024-06-19 22:21:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2024-06-19 22:21:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2024-06-19 23:02:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2024-06-19 23:02:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2024-06-19 23:06:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2024-06-19 23:06:35 +0700"
     },
     "done": true
   },
   "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-06-19 23:14:42 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2024-06-19 23:14:42 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
     "criteria": {
       "has_slime_ball": "2024-06-19 23:14:42 +0700"
     },
@@ -2225,15 +2275,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/white_dye": {
+  "minecraft:adventure/voluntary_exile": {
     "criteria": {
-      "has_bone_meal": "2024-06-19 23:06:35 +0700"
+      "voluntary_exile": "2024-06-19 23:29:14 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/glass": {
+  "minecraft:husbandry/allay_deliver_item_to_player": {
     "criteria": {
-      "has_smelts_to_glass": "2024-06-19 22:21:51 +0700"
+      "allay_deliver_item_to_player": "2024-06-19 23:30:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-06-19 23:46:38 +0700"
     },
     "done": true
   },
@@ -2249,57 +2305,263 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/snow": {
+  "minecraft:recipes/building_blocks/smooth_basalt": {
     "criteria": {
-      "has_snowball": "2024-06-19 23:02:54 +0700"
+      "has_basalt": "2024-06-20 15:52:32 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/sandstone": {
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
     "criteria": {
-      "has_sand": "2024-06-19 22:21:51 +0700"
+      "has_nether_bricks": "2024-06-20 15:55:22 +0700"
     },
     "done": true
   },
-  "minecraft:adventure/voluntary_exile": {
+  "minecraft:recipes/tools/golden_axe": {
     "criteria": {
-      "voluntary_exile": "2024-06-19 23:29:14 +0700"
+      "has_gold_ingot": "2024-06-20 14:16:38 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/slime_block": {
+  "minecraft:recipes/tools/golden_pickaxe": {
     "criteria": {
-      "has_slime_ball": "2024-06-19 23:14:42 +0700"
+      "has_gold_ingot": "2024-06-20 14:16:38 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+  "minecraft:nether/explore_nether": {
     "criteria": {
-      "has_log": "2024-06-19 22:19:15 +0700"
+      "minecraft:nether_wastes": "2024-06-20 15:13:40 +0700",
+      "minecraft:basalt_deltas": "2024-06-20 15:49:20 +0700",
+      "minecraft:warped_forest": "2024-06-20 15:12:42 +0700"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-06-20 15:12:41 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/oak_hanging_sign": {
+  "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
-      "has_stripped_logs": "2024-06-19 22:19:15 +0700"
+      "has_gold_ingot": "2024-06-20 14:16:38 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/tools/lead": {
+  "minecraft:recipes/tools/golden_shovel": {
     "criteria": {
-      "has_slime_ball": "2024-06-19 23:14:42 +0700"
+      "has_gold_ingot": "2024-06-20 14:16:38 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/snow_block": {
+  "minecraft:recipes/food/golden_apple": {
     "criteria": {
-      "has_snowball": "2024-06-19 23:02:54 +0700"
+      "has_gold_ingot": "2024-06-20 14:16:38 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bone_block": {
+  "minecraft:story/enter_the_nether": {
     "criteria": {
-      "has_bone_meal": "2024-06-19 23:06:35 +0700"
+      "entered_nether": "2024-06-20 15:12:41 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2024-06-20 14:16:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-06-20 15:55:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2024-06-20 14:16:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-06-20 15:52:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2024-06-20 14:09:26 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2024-06-20 15:11:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2024-06-20 12:39:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2024-06-20 15:55:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2024-06-20 14:13:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2024-06-20 14:08:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2024-06-20 15:55:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2024-06-20 14:16:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2024-06-20 14:16:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2024-06-20 15:52:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-06-20 15:55:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2024-06-20 15:52:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2024-06-20 14:16:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-06-20 15:55:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-06-20 15:55:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-06-20 16:43:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2024-06-20 14:13:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2024-06-20 14:16:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2024-06-20 15:55:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-06-20 16:43:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2024-06-20 15:11:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2024-06-20 15:49:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-06-20 16:43:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2024-06-20 14:16:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_copper": {
+    "criteria": {
+      "has_raw_copper_block": "2024-06-20 12:43:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2024-06-20 15:52:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2024-06-20 15:52:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2024-06-20 15:55:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2024-06-20 14:16:38 +0700"
     },
     "done": true
   },
