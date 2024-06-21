@@ -15,8 +15,10 @@
       "minecraft:mangrove_swamp": "2024-06-09 20:16:28 +0700",
       "minecraft:sparse_jungle": "2024-06-09 19:05:18 +0700",
       "minecraft:river": "2024-06-09 19:47:46 +0700",
+      "minecraft:snowy_plains": "2024-06-22 00:02:24 +0700",
       "minecraft:dripstone_caves": "2024-06-09 20:18:55 +0700",
       "minecraft:old_growth_birch_forest": "2024-06-09 19:56:07 +0700",
+      "minecraft:deep_dark": "2024-06-21 23:51:31 +0700",
       "minecraft:jungle": "2024-06-09 19:51:28 +0700",
       "minecraft:ocean": "2024-06-19 14:03:09 +0700",
       "minecraft:sunflower_plains": "2024-06-09 19:59:45 +0700",
@@ -83,7 +85,8 @@
       "minecraft:zombie": "2024-06-09 19:06:54 +0700",
       "minecraft:creeper": "2024-06-19 13:39:55 +0700",
       "minecraft:zombie_villager": "2024-06-09 19:25:11 +0700",
-      "minecraft:ghast": "2024-06-20 15:40:19 +0700"
+      "minecraft:ghast": "2024-06-20 15:40:19 +0700",
+      "minecraft:slime": "2024-06-22 00:04:18 +0700"
     },
     "done": false
   },
@@ -2276,15 +2279,153 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+  "minecraft:recipes/building_blocks/glowstone": {
     "criteria": {
-      "has_gravel": "2024-06-20 15:59:02 +0700"
+      "has_glowstone_dust": "2024-06-20 13:54:46 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/magma_block": {
+  "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
-      "has_magma_cream": "2024-06-20 16:16:35 +0700"
+      "has_glowstone_dust": "2024-06-20 13:54:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "salmon_bucket": "2024-06-20 14:01:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2024-06-20 14:12:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2024-06-20 14:12:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2024-06-20 14:13:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2024-06-20 15:36:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_hyphae": {
+    "criteria": {
+      "has_log": "2024-06-20 15:36:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2024-06-20 15:49:37 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2024-06-20 15:52:21 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2024-06-20 15:52:21 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2024-06-20 15:52:21 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2024-06-20 15:52:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-06-20 15:52:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2024-06-20 15:52:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2024-06-20 15:52:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-06-20 15:52:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-06-20 15:52:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-06-20 15:52:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2024-06-20 15:52:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2024-06-20 15:52:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-06-20 15:53:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2024-06-20 15:53:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2024-06-20 15:53:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2024-06-20 15:59:02 +0700"
     },
     "done": true
   },
@@ -2306,18 +2447,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_basalt": {
-    "criteria": {
-      "has_basalt": "2024-06-20 15:52:21 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
-    "criteria": {
-      "has_nether_bricks": "2024-06-20 15:52:54 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/orange_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-06-20 15:59:02 +0700"
@@ -2327,12 +2456,6 @@
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-06-20 15:59:02 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/magma_cream": {
-    "criteria": {
-      "has_blaze_powder": "2024-06-20 16:35:08 +0700"
     },
     "done": true
   },
@@ -2360,51 +2483,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_nether_bricks": "2024-06-20 15:52:54 +0700"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/tactical_fishing": {
-    "criteria": {
-      "salmon_bucket": "2024-06-20 14:01:43 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-06-20 15:59:02 +0700"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_blaze_rod": {
-    "criteria": {
-      "blaze_rod": "2024-06-20 15:53:27 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_brick_stairs": {
-    "criteria": {
-      "has_nether_bricks": "2024-06-20 15:52:54 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_campfire": {
-    "criteria": {
-      "has_soul_sand": "2024-06-20 14:12:55 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/smoker": {
-    "criteria": {
-      "has_furnace": "2024-06-20 16:33:00 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_brick_slab": {
-    "criteria": {
-      "has_nether_bricks": "2024-06-20 15:52:54 +0700"
     },
     "done": true
   },
@@ -2414,39 +2495,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
-    "criteria": {
-      "has_basalt": "2024-06-20 15:52:21 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-06-20 15:59:02 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/ender_eye": {
-    "criteria": {
-      "has_blaze_powder": "2024-06-20 16:35:08 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_nether_bricks": "2024-06-20 15:52:54 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/blaze_powder": {
-    "criteria": {
-      "has_blaze_rod": "2024-06-20 15:53:27 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_nether_bricks": "2024-06-20 15:52:54 +0700"
     },
     "done": true
   },
@@ -2456,57 +2507,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/glowstone": {
-    "criteria": {
-      "has_glowstone_dust": "2024-06-20 13:54:46 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-06-20 15:59:02 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/warped_planks": {
-    "criteria": {
-      "has_logs": "2024-06-20 15:36:31 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_nether_bricks": "2024-06-20 15:52:54 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/fire_charge": {
-    "criteria": {
-      "has_blaze_powder": "2024-06-20 16:35:08 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_torch": {
-    "criteria": {
-      "has_soul_sand": "2024-06-20 14:12:55 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/wheat": {
-    "criteria": {
-      "has_hay_block": "2024-06-20 14:13:35 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/nether_brick_wall": {
-    "criteria": {
-      "has_nether_bricks": "2024-06-20 15:52:54 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/warped_hyphae": {
-    "criteria": {
-      "has_log": "2024-06-20 15:36:31 +0700"
     },
     "done": true
   },
@@ -2516,39 +2519,549 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/spectral_arrow": {
-    "criteria": {
-      "has_glowstone_dust": "2024-06-20 13:54:46 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-06-20 15:59:02 +0700"
     },
     "done": true
   },
-  "minecraft:nether/find_fortress": {
+  "minecraft:recipes/building_blocks/magma_block": {
     "criteria": {
-      "fortress": "2024-06-20 15:49:37 +0700"
+      "has_magma_cream": "2024-06-20 16:16:35 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_basalt": {
+  "minecraft:recipes/decorations/smoker": {
     "criteria": {
-      "has_basalt": "2024-06-20 15:52:21 +0700"
+      "has_furnace": "2024-06-20 16:33:00 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/brewing_stand": {
+  "minecraft:recipes/brewing/magma_cream": {
     "criteria": {
-      "has_blaze_rod": "2024-06-20 15:53:27 +0700"
+      "has_blaze_powder": "2024-06-20 16:35:08 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/nether_brick_fence": {
+  "minecraft:recipes/misc/ender_eye": {
     "criteria": {
-      "has_nether_bricks": "2024-06-20 15:52:54 +0700"
+      "has_blaze_powder": "2024-06-20 16:35:08 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2024-06-20 16:35:08 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2024-06-21 21:33:44 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-06-21 22:51:37 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-06-21 22:51:37 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-06-21 22:51:37 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2024-06-21 23:34:18 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-06-21 23:34:18 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-06-21 23:34:18 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2024-06-21 23:34:18 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-21 23:35:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2024-06-21 23:55:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2024-06-21 23:55:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2024-06-21 23:55:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-06-22 00:04:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2024-06-22 00:04:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2024-06-22 00:04:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-06-22 00:38:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-06-22 00:38:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-06-22 00:38:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-06-22 00:38:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-06-22 00:38:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-06-22 00:38:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-06-22 00:38:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_bricks": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-06-22 00:38:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-06-22 00:38:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-06-22 00:38:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-06-22 00:38:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-06-22 00:38:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-06-22 00:39:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-06-22 00:39:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-06-22 00:39:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-06-22 00:39:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-06-22 00:39:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-06-22 00:39:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-06-22 00:39:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_diorite": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab": {
+    "criteria": {
+      "has_diorite": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-06-22 01:02:01 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2024-06-22 00:44:42 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/music_disc_5": {
+    "criteria": {
+      "has_disc_fragment_5": "2024-06-22 00:57:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall": {
+    "criteria": {
+      "has_diorite": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template": {
+    "criteria": {
+      "has_ward_armor_trim_smithing_template": "2024-06-22 01:02:01 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-22 01:05:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-06-22 01:05:24 +0700"
     },
     "done": true
   },
