@@ -717,6 +717,7 @@
       "minecraft:pillager": "2024-06-16 12:12:38 +0700",
       "minecraft:blaze": "2024-06-18 21:21:30 +0700",
       "minecraft:skeleton": "2024-06-10 12:31:37 +0700",
+      "minecraft:phantom": "2024-06-21 09:29:24 +0700",
       "minecraft:zombified_piglin": "2024-06-19 13:53:12 +0700",
       "minecraft:witch": "2024-06-17 11:03:22 +0700",
       "minecraft:wither_skeleton": "2024-06-18 21:04:50 +0700",
@@ -2867,6 +2868,72 @@
   "minecraft:adventure/throw_trident": {
     "criteria": {
       "shot_trident": "2024-06-19 15:16:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2024-06-21 08:36:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2024-06-21 08:36:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2024-06-21 08:36:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2024-06-21 08:36:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2024-06-21 08:36:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2024-06-21 08:36:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2024-06-21 08:39:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2024-06-21 08:39:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2024-06-21 09:40:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2024-06-21 09:53:57 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2024-06-21 09:53:57 +0700"
     },
     "done": true
   },
