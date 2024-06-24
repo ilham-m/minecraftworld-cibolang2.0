@@ -628,6 +628,7 @@
       "bread": "2024-06-16 13:18:37 +0700",
       "cooked_chicken": "2024-06-17 09:00:53 +0700",
       "cooked_mutton": "2024-06-16 13:17:16 +0700",
+      "potato": "2024-06-24 12:13:01 +0700",
       "cooked_cod": "2024-06-16 12:10:56 +0700",
       "dried_kelp": "2024-06-18 06:13:09 +0700",
       "cooked_beef": "2024-06-10 11:28:59 +0700"
@@ -2084,6 +2085,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cow": "2024-06-24 10:04:24 +0700",
       "minecraft:chicken": "2024-06-16 19:51:46 +0700",
       "minecraft:turtle": "2024-06-18 13:20:13 +0700"
     },
@@ -2955,7 +2957,19 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2024-06-24 00:53:23 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2024-06-24 00:58:08 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
     "criteria": {
       "has_deepslate_diamond_ore": "2024-06-24 00:58:08 +0700"
     },
@@ -2967,21 +2981,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/redstone_from_smelting_deepslate_redstone_ore": {
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
     "criteria": {
-      "has_deepslate_redstone_ore": "2024-06-24 01:10:27 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/lapis_lazuli_from_blasting_deepslate_lapis_ore": {
-    "criteria": {
-      "has_deepslate_lapis_ore": "2024-06-24 00:53:23 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
-    "criteria": {
-      "has_deepslate_redstone_ore": "2024-06-24 01:10:27 +0700"
+      "has_lapis_ore": "2024-06-24 00:59:44 +0700"
     },
     "done": true
   },
@@ -2997,15 +2999,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
+  "minecraft:recipes/redstone/redstone_from_smelting_deepslate_redstone_ore": {
     "criteria": {
-      "has_deepslate_diamond_ore": "2024-06-24 00:58:08 +0700"
+      "has_deepslate_redstone_ore": "2024-06-24 01:10:27 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
+  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
     "criteria": {
-      "has_lapis_ore": "2024-06-24 00:59:44 +0700"
+      "has_deepslate_redstone_ore": "2024-06-24 01:10:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2024-06-24 10:20:56 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-06-24 10:39:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2024-06-24 13:11:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2024-06-24 13:18:47 +0700"
     },
     "done": true
   },
