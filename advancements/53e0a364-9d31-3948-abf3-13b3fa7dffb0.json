@@ -95,6 +95,7 @@
       "minecraft:wither_skeleton": "2024-06-20 15:53:23 +0700",
       "minecraft:ghast": "2024-06-20 15:40:19 +0700",
       "minecraft:cave_spider": "2024-06-22 21:54:20 +0700",
+      "minecraft:enderman": "2024-06-26 23:57:12 +0700",
       "minecraft:magma_cube": "2024-06-20 15:50:53 +0700",
       "minecraft:spider": "2024-06-19 15:36:44 +0700",
       "minecraft:zombie": "2024-06-09 19:06:54 +0700",
@@ -3542,6 +3543,42 @@
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_gold_block": "2024-06-26 15:21:28 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2024-06-26 20:48:58 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2024-06-26 20:48:58 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2024-06-26 20:48:58 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2024-06-26 20:51:53 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-06-26 21:10:02 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+    "criteria": {
+      "has_log": "2024-06-26 21:10:02 +0700"
     },
     "done": true
   },
