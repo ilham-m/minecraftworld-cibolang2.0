@@ -17,6 +17,7 @@
       "minecraft:jungle": "2024-06-09 19:51:28 +0700",
       "minecraft:ocean": "2024-06-19 14:03:09 +0700",
       "minecraft:sunflower_plains": "2024-06-09 19:59:45 +0700",
+      "minecraft:cherry_grove": "2024-06-29 01:29:10 +0700",
       "minecraft:birch_forest": "2024-06-09 19:56:21 +0700",
       "minecraft:windswept_hills": "2024-06-09 20:31:52 +0700",
       "minecraft:old_growth_spruce_taiga": "2024-06-22 13:09:40 +0700",
@@ -91,6 +92,7 @@
       "minecraft:blaze": "2024-06-20 15:50:58 +0700",
       "minecraft:skeleton": "2024-06-09 21:00:52 +0700",
       "minecraft:phantom": "2024-06-22 15:15:04 +0700",
+      "minecraft:zombified_piglin": "2024-06-28 21:57:53 +0700",
       "minecraft:witch": "2024-06-23 10:33:16 +0700",
       "minecraft:wither_skeleton": "2024-06-20 15:53:23 +0700",
       "minecraft:ghast": "2024-06-20 15:40:19 +0700",
@@ -396,6 +398,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-06-29 11:44:52 +0700",
       "bread": "2024-06-22 13:06:01 +0700",
       "golden_apple": "2024-06-23 12:45:31 +0700",
       "rotten_flesh": "2024-06-09 21:54:41 +0700",
@@ -408,7 +411,9 @@
       "apple": "2024-06-19 23:22:39 +0700",
       "cooked_chicken": "2024-06-09 20:25:11 +0700",
       "potato": "2024-06-09 20:25:17 +0700",
-      "cooked_cod": "2024-06-09 21:30:18 +0700"
+      "cooked_cod": "2024-06-09 21:30:18 +0700",
+      "cooked_salmon": "2024-06-29 14:27:08 +0700",
+      "carrot": "2024-06-28 22:54:09 +0700"
     },
     "done": false
   },
@@ -1837,7 +1842,8 @@
       "minecraft:cow": "2024-06-19 23:11:33 +0700",
       "minecraft:wolf": "2024-06-22 14:37:04 +0700",
       "minecraft:panda": "2024-06-25 00:12:57 +0700",
-      "minecraft:sheep": "2024-06-19 23:11:54 +0700"
+      "minecraft:sheep": "2024-06-19 23:11:54 +0700",
+      "minecraft:bee": "2024-06-29 13:33:04 +0700"
     },
     "done": false
   },
@@ -3582,5 +3588,155 @@
     },
     "done": true
   },
-  "DataVersion": 3839
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2024-06-28 22:17:36 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2024-06-28 23:37:41 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2024-06-28 23:37:41 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2024-06-28 23:37:41 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2024-06-29 00:37:42 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2024-06-29 00:37:42 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2024-06-29 00:37:42 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2024-06-29 00:37:42 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2024-06-29 01:29:09 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2024-06-29 01:29:09 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_cherry_wood": {
+    "criteria": {
+      "has_log": "2024-06-29 01:33:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-06-29 01:33:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:british_shorthair": "2024-06-29 01:40:40 +0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2024-06-29 13:38:05 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2024-06-29 13:38:05 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_door": {
+    "criteria": {
+      "has_copper_ingot": "2024-06-29 13:38:05 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2024-06-29 13:38:05 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_trapdoor": {
+    "criteria": {
+      "has_copper_ingot": "2024-06-29 13:38:05 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-06-29 14:48:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2024-06-29 14:45:36 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_black_dye": "2024-06-29 14:48:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_black_dye": "2024-06-29 14:48:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2024-06-29 14:48:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-06-29 14:48:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-06-29 14:48:30 +0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
 }
