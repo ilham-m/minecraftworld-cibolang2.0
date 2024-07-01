@@ -585,6 +585,7 @@
       "rotten_flesh": "2024-06-21 23:26:02 +0700",
       "cooked_mutton": "2024-06-09 19:14:47 +0700",
       "glow_berries": "2024-06-22 11:34:18 +0700",
+      "dried_kelp": "2024-07-01 22:52:16 +0700",
       "cooked_beef": "2024-06-09 19:30:46 +0700",
       "beef": "2024-06-22 00:15:07 +0700",
       "melon_slice": "2024-06-23 10:38:08 +0700",
@@ -612,6 +613,7 @@
       "minecraft:witch": "2024-06-21 23:49:10 +0700",
       "minecraft:wither_skeleton": "2024-06-28 21:58:50 +0700",
       "minecraft:cave_spider": "2024-06-22 00:22:57 +0700",
+      "minecraft:piglin": "2024-07-01 21:55:52 +0700",
       "minecraft:enderman": "2024-06-09 22:16:41 +0700",
       "minecraft:magma_cube": "2024-06-20 15:51:11 +0700",
       "minecraft:spider": "2024-06-09 20:50:23 +0700",
@@ -3344,6 +3346,42 @@
   "minecraft:recipes/food/cooked_salmon": {
     "criteria": {
       "has_salmon": "2024-06-29 19:26:00 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2024-07-01 21:21:26 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2024-07-01 22:24:41 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2024-07-01 20:43:48 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2024-07-01 21:21:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2024-07-01 22:24:41 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2024-07-01 21:21:24 +0700"
     },
     "done": true
   },
