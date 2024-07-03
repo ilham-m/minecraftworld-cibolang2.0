@@ -3349,18 +3349,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/redstone_lamp": {
-    "criteria": {
-      "has_glowstone": "2024-07-01 21:21:26 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_wart_block": {
-    "criteria": {
-      "has_nether_wart": "2024-07-01 22:24:41 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_dandelion": "2024-07-01 20:43:48 +0700"
@@ -3373,15 +3361,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/red_nether_bricks": {
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2024-07-01 21:21:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2024-07-01 21:21:26 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
     "criteria": {
       "has_nether_wart": "2024-07-01 22:24:41 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/combat/spectral_arrow": {
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
     "criteria": {
-      "has_glowstone_dust": "2024-07-01 21:21:24 +0700"
+      "has_nether_wart": "2024-07-01 22:24:41 +0700"
     },
     "done": true
   },
