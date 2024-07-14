@@ -7,6 +7,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:badlands": "2024-07-13 22:18:32 +0700",
       "minecraft:flower_forest": "2024-06-22 21:38:40 +0700",
       "minecraft:savanna_plateau": "2024-06-24 23:47:55 +0700",
       "minecraft:beach": "2024-06-22 23:53:41 +0700",
@@ -18,6 +19,8 @@
       "minecraft:lukewarm_ocean": "2024-06-22 23:55:19 +0700",
       "minecraft:lush_caves": "2024-06-23 10:41:15 +0700",
       "minecraft:dripstone_caves": "2024-06-06 19:55:27 +0700",
+      "minecraft:eroded_badlands": "2024-07-13 21:44:29 +0700",
+      "minecraft:desert": "2024-07-13 21:43:27 +0700",
       "minecraft:deep_dark": "2024-06-06 22:23:22 +0700",
       "minecraft:jungle": "2024-06-06 20:05:22 +0700",
       "minecraft:ocean": "2024-06-22 23:48:02 +0700",
@@ -642,6 +645,7 @@
       "cooked_chicken": "2024-06-06 21:21:05 +0700",
       "cooked_mutton": "2024-06-06 21:02:30 +0700",
       "glow_berries": "2024-06-28 21:04:02 +0700",
+      "salmon": "2024-07-14 11:40:43 +0700",
       "cooked_beef": "2024-06-06 20:32:16 +0700",
       "melon_slice": "2024-06-06 20:47:44 +0700",
       "cooked_salmon": "2024-06-06 23:32:09 +0700"
@@ -938,6 +942,7 @@
       "minecraft:witch": "2024-06-23 10:07:31 +0700",
       "minecraft:wither_skeleton": "2024-06-28 22:01:23 +0700",
       "minecraft:ravager": "2024-06-23 10:00:48 +0700",
+      "minecraft:husk": "2024-07-13 22:30:11 +0700",
       "minecraft:cave_spider": "2024-06-22 21:44:23 +0700",
       "minecraft:vindicator": "2024-06-23 09:56:31 +0700",
       "minecraft:enderman": "2024-06-18 18:02:07 +0700",
@@ -2800,7 +2805,8 @@
       "minecraft:white": "2024-07-01 21:10:35 +0700",
       "minecraft:calico": "2024-06-23 12:27:43 +0700",
       "minecraft:siamese": "2024-06-24 23:44:11 +0700",
-      "minecraft:black": "2024-07-01 21:09:42 +0700"
+      "minecraft:black": "2024-07-01 21:09:42 +0700",
+      "minecraft:red": "2024-07-13 21:53:28 +0700"
     },
     "done": false
   },
@@ -2993,6 +2999,7 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:cat": "2024-06-25 00:35:51 +0700",
+      "minecraft:panda": "2024-07-13 20:12:32 +0700",
       "minecraft:axolotl": "2024-06-28 21:03:04 +0700"
     },
     "done": false
@@ -3599,7 +3606,8 @@
   },
   "minecraft:husbandry/whole_pack": {
     "criteria": {
-      "minecraft:rusty": "2024-07-01 20:52:08 +0700"
+      "minecraft:rusty": "2024-07-01 20:52:08 +0700",
+      "minecraft:pale": "2024-07-13 21:13:35 +0700"
     },
     "done": false
   },
@@ -3936,6 +3944,66 @@
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2024-07-13 10:13:44 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2024-07-13 20:51:44 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
+    "criteria": {
+      "has_light_gray_terracotta": "2024-07-13 21:45:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2024-07-13 21:46:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2024-07-13 22:06:05 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_glazed_terracotta": {
+    "criteria": {
+      "has_red_terracotta": "2024-07-13 22:36:44 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2024-07-13 22:36:45 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2024-07-13 22:36:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2024-07-13 22:48:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2024-07-13 22:50:52 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2024-07-13 22:50:52 +0700"
     },
     "done": true
   },
