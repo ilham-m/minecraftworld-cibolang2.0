@@ -398,28 +398,30 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2024-06-17 11:25:42 +0700",
+      "minecraft:forest": "2024-06-10 11:21:42 +0700",
+      "minecraft:lush_caves": "2024-07-23 23:31:22 +0700",
+      "minecraft:ice_spikes": "2024-07-01 16:53:55 +0700",
+      "minecraft:frozen_river": "2024-07-01 16:53:40 +0700",
+      "minecraft:jungle": "2024-06-11 12:32:27 +0700",
+      "minecraft:ocean": "2024-06-17 10:59:55 +0700",
+      "minecraft:birch_forest": "2024-06-17 10:58:37 +0700",
+      "minecraft:snowy_beach": "2024-07-01 16:53:57 +0700",
+      "minecraft:bamboo_jungle": "2024-06-17 08:52:01 +0700",
+      "minecraft:deep_lukewarm_ocean": "2024-06-18 12:31:59 +0700",
       "minecraft:savanna_plateau": "2024-06-17 10:52:27 +0700",
       "minecraft:beach": "2024-06-17 08:46:12 +0700",
-      "minecraft:forest": "2024-06-10 11:21:42 +0700",
+      "minecraft:stony_peaks": "2024-07-23 20:50:18 +0700",
       "minecraft:sparse_jungle": "2024-06-10 11:21:11 +0700",
       "minecraft:river": "2024-06-10 12:23:39 +0700",
       "minecraft:lukewarm_ocean": "2024-06-17 08:46:15 +0700",
       "minecraft:stony_shore": "2024-06-18 12:26:04 +0700",
       "minecraft:snowy_plains": "2024-07-01 16:53:25 +0700",
       "minecraft:dripstone_caves": "2024-06-11 11:21:12 +0700",
-      "minecraft:ice_spikes": "2024-07-01 16:53:55 +0700",
       "minecraft:old_growth_birch_forest": "2024-06-17 10:58:44 +0700",
-      "minecraft:frozen_river": "2024-07-01 16:53:40 +0700",
       "minecraft:deep_dark": "2024-07-21 12:09:33 +0700",
-      "minecraft:jungle": "2024-06-11 12:32:27 +0700",
-      "minecraft:ocean": "2024-06-17 10:59:55 +0700",
       "minecraft:swamp": "2024-06-17 11:02:04 +0700",
-      "minecraft:birch_forest": "2024-06-17 10:58:37 +0700",
-      "minecraft:snowy_beach": "2024-07-01 16:53:57 +0700",
       "minecraft:savanna": "2024-06-16 20:55:39 +0700",
-      "minecraft:bamboo_jungle": "2024-06-17 08:52:01 +0700",
-      "minecraft:plains": "2024-06-11 12:20:06 +0700",
-      "minecraft:deep_lukewarm_ocean": "2024-06-18 12:31:59 +0700"
+      "minecraft:plains": "2024-06-11 12:20:06 +0700"
     },
     "done": false
   },
@@ -633,6 +635,7 @@
       "bread": "2024-06-16 13:18:37 +0700",
       "golden_apple": "2024-07-20 10:38:33 +0700",
       "cooked_chicken": "2024-06-17 09:00:53 +0700",
+      "enchanted_golden_apple": "2024-07-24 22:19:07 +0700",
       "cooked_mutton": "2024-06-16 13:17:16 +0700",
       "potato": "2024-06-24 12:13:01 +0700",
       "cooked_cod": "2024-06-16 12:10:56 +0700",
@@ -745,6 +748,7 @@
       "minecraft:enderman": "2024-06-19 12:12:03 +0700",
       "minecraft:stray": "2024-07-01 16:55:09 +0700",
       "minecraft:silverfish": "2024-07-08 13:43:37 +0700",
+      "minecraft:endermite": "2024-07-23 20:41:09 +0700",
       "minecraft:zombie": "2024-06-10 12:05:13 +0700",
       "minecraft:drowned": "2024-06-11 12:38:17 +0700"
     },
@@ -4047,6 +4051,126 @@
   "minecraft:recipes/misc/mojang_banner_pattern": {
     "criteria": {
       "has_enchanted_golden_apple": "2024-07-21 12:20:07 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2024-07-23 20:48:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2024-07-23 20:48:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2024-07-23 20:59:12 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2024-07-23 20:59:12 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2024-07-23 21:01:44 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2024-07-23 21:34:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2024-07-23 21:42:37 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/music_disc_5": {
+    "criteria": {
+      "has_disc_fragment_5": "2024-07-23 21:55:28 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2024-07-23 22:09:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_lantern": {
+    "criteria": {
+      "has_soul_torch": "2024-07-23 22:11:49 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-07-24 22:17:19 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template": {
+    "criteria": {
+      "has_ward_armor_trim_smithing_template": "2024-07-24 22:17:19 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
+    "criteria": {
+      "armor_trimmed_minecraft:ward_armor_trim_smithing_template_smithing_trim": "2024-07-25 00:09:51 +0700"
+    },
+    "done": false
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:ward_armor_trim_smithing_template_smithing_trim": "2024-07-25 00:09:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab": {
+    "criteria": {
+      "has_polished_diorite": "2024-07-25 21:47:02 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs": {
+    "criteria": {
+      "has_polished_diorite": "2024-07-25 21:47:02 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2024-07-25 21:47:02 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2024-07-25 21:47:02 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks": {
+    "criteria": {
+      "has_nether_brick_slab": "2024-07-25 21:51:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2024-07-26 11:02:23 +0700"
     },
     "done": true
   },
