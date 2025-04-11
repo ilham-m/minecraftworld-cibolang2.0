@@ -34,6 +34,7 @@
       "minecraft:savanna_plateau": "2024-06-19 23:27:35 +0700",
       "minecraft:beach": "2024-06-22 23:53:10 +0700",
       "minecraft:dark_forest": "2024-06-09 20:59:07 +0700",
+      "minecraft:stony_peaks": "2024-09-28 22:38:38 +0700",
       "minecraft:mangrove_swamp": "2024-06-09 20:16:28 +0700",
       "minecraft:sparse_jungle": "2024-06-09 19:05:18 +0700",
       "minecraft:river": "2024-06-09 19:47:46 +0700",
@@ -106,6 +107,7 @@
       "minecraft:wither_skeleton": "2024-06-20 15:53:23 +0700",
       "minecraft:husk": "2024-07-13 22:30:16 +0700",
       "minecraft:ghast": "2024-06-20 15:40:19 +0700",
+      "minecraft:shulker": "2024-09-28 23:53:16 +0700",
       "minecraft:cave_spider": "2024-06-22 21:54:20 +0700",
       "minecraft:breeze": "2024-07-19 22:20:23 +0700",
       "minecraft:enderman": "2024-06-26 23:57:12 +0700",
@@ -418,6 +420,7 @@
       "glow_berries": "2024-06-23 11:20:14 +0700",
       "sweet_berries": "2024-06-22 14:25:16 +0700",
       "cooked_beef": "2024-06-09 19:13:26 +0700",
+      "chorus_fruit": "2024-09-29 00:31:07 +0700",
       "baked_potato": "2024-06-24 23:57:37 +0700",
       "beef": "2024-07-08 12:17:43 +0700",
       "melon_slice": "2024-06-22 20:40:04 +0700",
@@ -5230,6 +5233,234 @@
   "minecraft:husbandry/obtain_sniffer_egg": {
     "criteria": {
       "obtain_sniffer_egg": "2024-07-20 20:55:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2024-08-12 21:53:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2024-08-12 21:53:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-08-12 21:53:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-08-12 21:53:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2024-08-12 21:53:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2024-08-12 21:53:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2024-08-12 21:53:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-08-12 21:53:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2024-08-12 21:53:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2024-08-12 22:09:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2024-08-12 22:09:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2024-08-12 22:10:18 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2024-08-12 22:10:18 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2024-08-12 22:10:18 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2024-08-12 22:16:52 +0700"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-09-28 23:25:01 +0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-09-28 23:25:01 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-09-28 23:44:53 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2024-09-28 23:44:53 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-09-28 23:44:53 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-09-28 23:44:53 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-09-28 23:44:53 +0700"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2024-09-28 23:49:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2024-09-28 23:50:36 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-09-28 23:50:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2024-09-28 23:51:59 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2024-09-28 23:51:59 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-09-28 23:51:59 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-09-28 23:51:59 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2024-09-28 23:51:59 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-09-28 23:51:59 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-09-28 23:54:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-09-28 23:54:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-09-28 23:54:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-09-28 23:54:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-09-28 23:54:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-09-28 23:54:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2024-09-28 23:56:58 +0700"
     },
     "done": true
   },
